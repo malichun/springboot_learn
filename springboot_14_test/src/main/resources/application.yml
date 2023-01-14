@@ -1,0 +1,27 @@
+
+test:
+  prop: testValue
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://hadoop102:3306/ssm_db
+      username: "root"
+      password: "123456"
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+
+testcase:
+  book:
+    id: ${random.int}
+    id2: ${random.int(10)} # 10以内
+    type: ${random.int(5,10)}
+    name: 黑马${random.value}
+    uuid: ${random.uuid}
+    publishTime: ${random.long}

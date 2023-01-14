@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+#spring:
+#  datasource:
+#    druid:
+#      driver-class-name: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://hadoop102:3306/ssm_db
+#      username: "root"
+#      password: "123456"
+#
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  global-config:
+#    db-config:
+#      id-type: auto
+#
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true # 驼峰和_转换
+

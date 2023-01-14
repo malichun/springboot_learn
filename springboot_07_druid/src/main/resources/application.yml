@@ -1,0 +1,16 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    password: "123456"
+#    url: jdbc:mysql://hadoop102:3306/ssm_db
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://hadoop102:3306/ssm_db
+      username: "root"
+      password: "123456"
+      driver-class-name: com.mysql.jdbc.Driver

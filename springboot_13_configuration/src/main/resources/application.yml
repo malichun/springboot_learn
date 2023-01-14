@@ -1,0 +1,16 @@
+servers:
+  ipAddress: 192.168.0.2  # 驼峰
+  # ipaddress: 192.168.0.2
+  # ip_address: 192.168.0.2  # 下划线模式
+  # ip-address: 192.168.0.2  # 烤肉串模式
+  # IPADDRESS: 192.168.0.2
+  # IP_ADDRESS: 192.168.0.2 # 常量定义名称
+#  IP_AD-D_RE_S_S: 192.168.0.2
+  port: 2345
+  timeout: -1
+  serverTimeOut: 3
+  dataSize: 10MB
+
+datasource:
+  driverClassName: com.mysql.jdbc.Driver789
+  password: "0127"

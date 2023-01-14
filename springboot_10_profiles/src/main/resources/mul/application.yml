@@ -1,0 +1,7 @@
+# 应用环境
+# 存放公共配置
+spring:
+  profiles:
+    active: test
+
+
