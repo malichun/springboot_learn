@@ -26,13 +26,22 @@ mybatis:
     map-underscore-to-camel-case: true # 驼峰和_转换
 
 
-
-
 management:
-  endpoint:
+  info:
+    env:
+      enabled: true
+  endpoint:  # 开发的端点
     health:
       show-details: always
   endpoints:
     web:
       exposure:
-        include: "*"
+       # include: health,info
+        include: "*" #开放的端点
+    enabled-by-default: true # 所有的端点都开放,默认是true
+
+info:  # info端点
+  appName: @artifactId@
+  auther: itheima
+  version: @project.version@
+  company: 传智教育
